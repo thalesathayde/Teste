@@ -1,6 +1,7 @@
 import sys
 
 def troca(valor, moedas):
+    moedas.sort()
 
     #criacao de uma matriz Valor+1 por Moedas Diferentes, onde a primeira coluna eh composta de zeros e o resto eh um valor muito alto
     aux=[]
